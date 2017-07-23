@@ -1,0 +1,32 @@
+{
+    "name": "lilypond",
+    "displayName": "LilyPond",
+    "description": "Provides syntax highligting for the LilyPond language",
+    "version": "0.0.1",
+    "publisher": "n",
+    "engines": {
+        "vscode": "^1.14.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "lilypond",
+            "aliases": [
+                "LilyPond",
+                "lilypond"
+            ],
+            "extensions": [
+                ".ily",
+                ".ly"
+            ],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "lilypond",
+            "scopeName": "source.lilypond",
+            "path": "./syntaxes/lilypond.tmLanguage"
+        }]
+    }
+}

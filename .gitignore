@@ -1,6 +1,7 @@
 *.pyc
 *.cache
 .DS_Store
-*.sublime-project
-*.sublime-workspace
 LilyTests
+.vscode
+vsc-extension-quickstart.md
+syntax/lilypond.tmLanguage
