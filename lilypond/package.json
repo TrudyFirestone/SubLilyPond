@@ -3,7 +3,7 @@
     "displayName": "LilyPond",
     "description": "Provides syntax highligting for the LilyPond language",
     "version": "0.0.1",
-    "publisher": "n",
+    "publisher": "truefire",
     "engines": {
         "vscode": "^1.14.0"
     },
