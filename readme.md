@@ -9,6 +9,10 @@ Based on [SubLilyPond](https://github.com/yrammos/SubLilyPond), this provides sy
 
 ### Installing SubLilyPond
 
+#### From VSCode
+Search for LilyPond in the extensions browser, and install the extension LilyPond by truefire.
+
+#### From Source
 Use your favorite tool to convert `lilypond.json` from json to plist and save it in the `lilypond/syntaxes/` directory as `lilypond.tmLanguage`. Then copy the `lilypond` directory to the `.vscode/extensions` directory in your home directory.
 
 ### Acknowledgements
